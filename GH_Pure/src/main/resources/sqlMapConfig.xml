@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+        <!-- 命名空间 -->
+    <typeAliases>
+         <typeAlias alias="file" type="com.ibm.crl.uaqm.system.vo.Event"/> 
+    </typeAliases>
+ 
+    <!-- 映射map -->
+    <mappers>
+    	<mapper resource="com/ibm/crl/uaqm/system/vo/sqlmap/Event.xml"/>  
+    </mappers>
+</configuration>
